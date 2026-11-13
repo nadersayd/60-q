@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="مراجعة 60 سؤالًا في نظم المعلومات وC++ وQt وقواعد البيانات مع الإجابات والتوضيح.">
+  <title>مراجعة مشروع نظم المعلومات - 60 سؤال</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <span class="eyebrow">مراجعة واختبار</span>
+      <h1>60 سؤال في مشروع نظم المعلومات</h1>
+      <p>اختبر نفسك، ثم اعرض الإجابة الصحيحة والتوضيح أسفل كل سؤال.</p>
+      <div class="stats">
+        <div><strong id="totalCount">60</strong><span>سؤال</span></div>
+        <div><strong id="answeredCount">0</strong><span>تمت الإجابة</span></div>
+        <div><strong id="scoreCount">0 / 0</strong><span>النتيجة</span></div>
+      </div>
+      <div class="toolbar">
+        <button id="showAllBtn" class="btn btn-primary">إظهار كل الإجابات</button>
+        <button id="hideAllBtn" class="btn btn-secondary">إخفاء كل الإجابات</button>
+        <button id="resetBtn" class="btn btn-ghost">إعادة الاختبار</button>
+      </div>
+      <div class="progress-track"><div id="progressBar"></div></div>
+    </div>
+  </header>
+  <main class="container">
+    <div class="section-heading">
+      <h2>الأسئلة والإجابات</h2>
+      <p>اختر إجابة لكل سؤال؛ ستظهر لك النتيجة والتفسير مباشرة.</p>
+    </div>
+    <div id="questions" class="questions"></div>
+    <footer>بالتوفيق في المراجعة والامتحان ✨</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
